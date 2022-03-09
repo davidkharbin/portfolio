@@ -122,3 +122,10 @@ border-radius: 50px;
     
   }
 `
+
+// Anchor tag
+export const anchor = {
+  display: 'flex',
+  alignItems: 'center',
+  color: 'white'
+}
