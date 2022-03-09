@@ -1,17 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillCode } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import {RiBracesFill} from 'react-icons/ri'
+import {IoCodeDownloadOutline} from 'react-icons/io5'
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, anchor } from './HeaderStyles';
+import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons, Anchor } from './HeaderStyles';
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href='/'>
-        {/* <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}> */}
-        <a style={anchor}>
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
+        <a style={Anchor}>
+          <IoCodeDownloadOutline size='3rem' /> <Span>David Harbin</Span>
         </a>
       </Link>
     </Div1>
@@ -43,7 +44,7 @@ const Header = () => (
         <AiFillTwitterCircle size='3rem' />
       </SocialIcons>
     </Div3>
-  </Container >
+  </Container>
 );
 
 export default Header;

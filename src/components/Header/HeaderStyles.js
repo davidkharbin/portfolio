@@ -17,6 +17,12 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+  padding-left: 5px;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -124,8 +130,9 @@ border-radius: 50px;
 `
 
 // Anchor tag
-export const anchor = {
+export const Anchor = {
   display: 'flex',
   alignItems: 'center',
-  color: 'white'
+  color: 'white',
+  marginBottom: '20px'
 }
