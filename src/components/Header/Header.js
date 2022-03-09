@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillCode } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
-import {RiBracesFill} from 'react-icons/ri'
-import {IoCodeDownloadOutline} from 'react-icons/io5'
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, } from 'react-icons/ai';
+import { IoCodeDownloadOutline } from 'react-icons/io5'
 
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons, Anchor } from './HeaderStyles';
 
