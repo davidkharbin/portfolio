@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Altitude Apparel',
     description: "Full-Stack E-Commerce application of over one million products, developed in three weeks with a team of four other engineers",
-    image: '/images/1.png',
+    image: '/images/altitude.png',
     tags: ['JavaScript', 'HTML', 'CSS', 'React', 'Bootstrap', 'Node', 'Express', 'PostreSQL', 'AWS'],
     source: 'https://google.com',
     visit: 'https://google.com',
