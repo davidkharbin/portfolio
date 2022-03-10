@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Poject 4 (id:3)',
+    title: 'humangaitinstitute.org',
     description: "tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque adipiscing",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/davidkharbin/hgi',
+    visit: 'humangaitinstitute.org',
     id: 3,
   },
 ];
