@@ -24,8 +24,10 @@ export const Boxes = styled.div`
 
 export const Box = styled.div`
   background: #212D45;
+  display: flex;
+  flex-direction: column;
   border-radius: 12px;
-  height: 144px;
+  /* height: 165px; */
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
@@ -33,12 +35,12 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
+    /* height: 210px; */
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 135px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -46,14 +48,14 @@ export const Box = styled.div`
     }
   }
 `
-export const BoxNum = styled.h5`
+export const BoxIcon = styled.div`
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
-  margin-bottom: 8px;
+  margin: 3px auto;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 28px;
@@ -69,17 +71,18 @@ export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  text-align: center;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md}{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 14px;
   }
 `
