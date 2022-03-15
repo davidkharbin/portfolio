@@ -38,12 +38,12 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2014, text: 'Started my journey in tech, A+ ', },
-  { year: 2015, text: 'IBM', },
-  { year: 2016, text: 'Sungard', },
-  { year: 2017, text: 'Large Projects, interest in coding began', },
-  { year: 2018, text: 'Studied CIS', },
-  { year: 2019, text: 'Build static site for HGI', },
-  { year: 2020, text: 'Left Sungard to pursue software development career', },
-  { year: 2021, text: 'Completed Software Engineering Immersive at Hack Reactor', },
+  { year: 2014, text: 'Started my journey as a PC technician, acquired A+ certification' },
+  { year: 2015, text: 'Began helpdesk role at IBM' },
+  { year: 2016, text: 'Began data center technician role at Sungard' },
+  { year: 2017, text: 'Acquired Server+ and DCCA certifications' },
+  { year: 2018, text: 'Realizing I loved coding, I began studying computer science' },
+  { year: 2019, text: 'Began building an HTML/CSS site for HGI, continued programming studies' },
+  { year: 2020, text: 'Left Sungard to pursue software development career' },
+  { year: 2021, text: 'Completed Software Engineering Immersive at Hack Reactor' },
 ];
