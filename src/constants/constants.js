@@ -1,3 +1,8 @@
+import { FaUserGraduate } from "react-icons/fa";
+import { GiAirplane, GiDiploma, GiComputing } from "react-icons/gi";
+import { GrCertificate, GrUserExpert } from "react-icons/gr";
+import { AiOutlineCloudServer } from "react-icons/ai";
+
 export const projects = [
   {
     title: 'Altitude Apparel',
@@ -42,15 +47,15 @@ export const TimeLineData = [
   { year: 2015, text: 'Began helpdesk role at IBM' },
   { year: 2016, text: 'Began data center technician role at Sungard' },
   { year: 2017, text: 'Acquired Server+ and DCCA certifications' },
-  { year: 2018, text: 'Realizing I loved coding, I began studying computer science' },
-  { year: 2019, text: 'Began building an HTML/CSS site for HGI, continued programming studies' },
-  { year: 2020, text: 'Left Sungard to pursue software development career' },
+  { year: 2018, text: 'Began studying computer science' },
+  { year: 2019, text: 'Began building Freelance Websites' },
+  { year: 2020, text: 'Left Sungard to attend Software Engineer Bootcamp' },
   { year: 2021, text: 'Completed Software Engineering Immersive at Hack Reactor' },
 ];
 
 export const AcomplishmentsData = [
-  { number: 3, text: 'M'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { icon: <AiOutlineCloudServer size='5rem' />,   text: '8+ Years professional experience' },
+  { icon: <FaUserGraduate size='5rem' />, text: 'Galvanize Bootcamp Graduate', },
+  { icon: <GiDiploma size='5rem' />,      text: '4 Professional IT Certifications', },
+  { icon: <GiAirplane size='5rem' />,     text: 'FAA Certified Sport Pilot' }
 ];
