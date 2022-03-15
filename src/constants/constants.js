@@ -47,3 +47,10 @@ export const TimeLineData = [
   { year: 2020, text: 'Left Sungard to pursue software development career' },
   { year: 2021, text: 'Completed Software Engineering Immersive at Hack Reactor' },
 ];
+
+export const AcomplishmentsData = [
+  { number: 3, text: 'M'},
+  { number: 1000, text: 'Students', },
+  { number: 1900, text: 'Github Followers', },
+  { number: 5000, text: 'Github Stars', }
+];
