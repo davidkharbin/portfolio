@@ -2,18 +2,27 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
 
-    margin: 0 auto;
+  @media ${(props) => props.theme.breakpoints.xl}{
+    width: 99%;
+    /* margin: 0; */
+  } 
+
+  @media ${(props) => props.theme.breakpoints.lg}{
+    width: 70%;
+    margin: 0;
   }
+  
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 100%;
+    width: 600px;
     display: flex;
     flex-direction: column;
-
-    margin: 0 auto;
+    margin: 0;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
   }
 `;
