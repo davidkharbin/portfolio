@@ -8,8 +8,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi There <br />
-        I&apos;m David, Welcome to my Portfolio
+        Welcome! <br />
+        I&apos;m David, check out Portfolio
       </SectionTitle>
       <SectionText>
         Check out my personal and group projects, learn about my experience, technical skills, accomplishments, and passions!
