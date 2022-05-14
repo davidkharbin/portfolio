@@ -21,7 +21,7 @@ export const LeftSection = styled.div`
     margin: 0;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 200px;
+    width: 350px;
     display: flex;
     flex-direction: column;
   }
