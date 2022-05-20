@@ -253,7 +253,7 @@ export const LinkContainer = styled.div`
   padding: 8px;
 
   &:hover {
-    background-color: #212d45;
+    background-color: #00ffff;
     transform: scale(1.2);
     cursor: pointer;
   }

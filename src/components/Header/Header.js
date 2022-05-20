@@ -7,13 +7,6 @@ import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons, Anchor } from 
 
 const Header = () => (
   <Container>
-    <Div1>
-      <Link href='/'>
-        <a style={Anchor}>
-          <IoCodeDownloadOutline size='3rem' /> <Span>David Harbin</Span>
-        </a>
-      </Link>
-    </Div1>
     <Div2>
       <li>
         <Link href='#projects' passHref>
