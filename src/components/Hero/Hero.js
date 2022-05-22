@@ -12,7 +12,7 @@ const Hero = (props) => (
         I&apos;m David, check out my Portfolio
       </SectionTitle>
       <SectionText>
-        Check out my personal and group projects, learn about my experience, technical skills, accomplishments, and passions!
+        Check out my personal and group projects, learn about my experience and technical skills!
       </SectionText>
       <Button
         onClick={() => window.location = 'https://github.com/davidkharbin'}>More
